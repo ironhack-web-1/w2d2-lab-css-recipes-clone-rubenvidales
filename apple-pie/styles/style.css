@@ -1,8 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,400,700');
 
 html, body{
     margin: 0;
     font-family: Roboto;
+    font-weight: 100;
+}
+
+h2 {
+    font-size: 1.4em;
+    font-weight: 400;
+    margin: 30px 0;
 }
 
 .hero-image {
@@ -18,10 +25,39 @@ html, body{
     text-align: center;
     vertical-align: middle;
     line-height: 100vh;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .description, .ingredients, .directions {
     padding-left: 100px;
     padding-right: 100px;
+}
+
+.description img, .ingredients img {
+    width: 400px;
+    display: block;
+    margin: auto;
+}
+
+hr {
+    margin-top: 20px;
+}
+
+.description p {
+    font-size: 1.4em;
+    line-height: 1.2em;
+    margin: 50px 0 20px;
+}
+
+.ingredients ul {
+    list-style: '- ';
+    font-size: 1.2em;
+    line-height: 1.4em;
+    margin-bottom: 20px;
+}
+
+.directions ol {
+    font-size: 1.2em;
+    line-height: 1.4em;
+    margin-bottom: 50px;
 }
